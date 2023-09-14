@@ -3,3 +3,30 @@
   height: 80px;
   background: grey;
 }
+
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo svg{
+  color: brown;
+}
+
+.logo-first {
+  font-family: 'Caveat', cursive;
+  color: red;
+  font-size: 24px;
+}
+
+.logo-second{
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+}

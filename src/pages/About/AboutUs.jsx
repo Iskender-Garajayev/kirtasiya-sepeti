@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
-import Sidebar from '../../components/Sidebar/Sidebar'
-import Footer from '../../components/Footer/Footer'
+
 
 
 const AboutUs = () => {
@@ -9,14 +8,9 @@ const AboutUs = () => {
     <>
     <Header />
 
-    <div className='main-container'>
-      <Sidebar />
-      <div className='main'>
-        About Us
-      </div>
+    <div className="aboutus-container">
+      about us 
     </div>
-
-    <Footer />
   </>
   )
 }
