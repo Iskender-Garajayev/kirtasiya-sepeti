@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 import Header from '../../components/Header/Header'
 
 
@@ -8,8 +9,8 @@ const AboutUs = () => {
     <>
     <Header />
 
-    <div className="aboutus-container">
-      about us 
+    <div className="aboutus-container ">
+      
     </div>
   </>
   )
