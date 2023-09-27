@@ -5,9 +5,24 @@ import { Link } from 'react-router-dom'
 const AdminDashboardSidebar = () => {
   return (
     <div className='admin-dashboard-navbar-container'>
-      <Link to="/admin/user">
+
+<ul>
+<li>
+<Link to="/admin/user">
         user
       </Link>
+</li>
+  <li>
+  <Link to="/admin/sparis">
+        sparis
+      </Link>
+  </li>
+</ul>
+ 
+
+      
+     
+      
     </div>
   )
 }

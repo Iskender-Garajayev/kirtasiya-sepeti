@@ -7,6 +7,7 @@ import Menu from './pages/Menu/Menu';
 import Contacts from './pages/Contacts/Contacts';
 import User from './adminDasboard/pages/User';
 import AdminDashboardHome from './adminDasboard/components/home/AdminDashboardHome';
+import Sparis from './adminDasboard/pages/Sparis';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
 
           <Route path='/admin' element={<AdminDashboardHome/>}/>
           <Route path='/admin/user' element={<User/>} />
+          <Route path='/admin/sparis' element={<Sparis/>} />
         </Routes>
       </BrowserRouter> 
     </div>
